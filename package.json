@@ -1,0 +1,14 @@
+{
+  "name": "sts-traders",
+  "version": "1.0.0",
+  "description": "Coconut Import & Export Company Website",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

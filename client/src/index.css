@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #5d8a66;
+  --color-secondary: #2d4c33;
+  --color-accent: #a8d5ba;
+}
+
+body {
+  @apply bg-coconut-light text-coconut-forest overflow-x-hidden;
+}
+
+.btn-primary {
+  @apply bg-coconut-green text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-coconut-green-dark active:scale-95 inline-flex items-center justify-center;
+}
+
+.btn-secondary {
+  @apply bg-white text-coconut-green border-2 border-coconut-green px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-coconut-green hover:text-white active:scale-95 inline-flex items-center justify-center;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-serif font-bold text-center mb-4 text-coconut-green-dark;
+}
+
+.section-subtitle {
+  @apply text-center text-gray-600 mb-12 max-w-2xl mx-auto text-lg;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl rounded-2xl;
+}
