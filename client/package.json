@@ -13,13 +13,16 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.38",
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.1",
