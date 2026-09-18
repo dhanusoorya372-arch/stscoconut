@@ -4,8 +4,8 @@
   "description": "Coconut Import & Export Company Website",
   "scripts": {
     "start": "node server/server.js",
-    "server": "nodemon server/server.js",
-    "client": "npm start --prefix client",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {

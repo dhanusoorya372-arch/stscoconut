@@ -1,8 +1,10 @@
 const markets = [
-  'Asia',
-  'Middle East',
-  'Europe',
-  'Africa',
+  'Erode',
+  'Thirupur',
+  'Coimbatore',
+  'Namakkal',
+  'karur',
+  'gobichettipalayam',
   'Global importers and bulk buyers',
 ];
 
